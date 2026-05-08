@@ -42,7 +42,7 @@ output {
     output_defined_microbiome {
         path "${ insilico_defined_microbiome.name }"
     }
-    output_defined_microbiome{
+    output_defined_abundance{
         path "${ insilico_defined_microbiome.name }"
         mode 'copy'
     }

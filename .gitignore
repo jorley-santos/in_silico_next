@@ -1,4 +1,7 @@
 data/
+results/
+work/
+.nextflow/
 *.fastq
 *.fasta
 *.fna

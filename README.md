@@ -115,6 +115,10 @@ process ISS_GENERATE {
     gzip *.fastq
     """
 }
+```
+
+---
+
 
 ## Citations
 If you use this pipeline, please cite:

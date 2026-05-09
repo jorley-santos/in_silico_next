@@ -35,8 +35,8 @@ It must be filled with the IDs and absolute paths of the microbial genomes you w
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/](https://github.com/)[username]/[repo-name].git
-    cd [repo-name]
+    git clone git@github.com:jorley-santos/in_silico_next.git
+    cd in_silico_next/
     ```
 
 2.  **Run with test data:**

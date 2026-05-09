@@ -34,6 +34,7 @@ The pipeline utilizes Nextflow's DSL2 syntax to provide a scalable, reproducible
 3.  **Run with your own data:**
     ```bash
     nextflow run main.nf \\
+      --input_genomes samplesheet.csv
       --sequencer_model hiseq \\
       --number_of_samples 15 \\
       --number_of_reads 1 \\

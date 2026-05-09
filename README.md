@@ -81,7 +81,6 @@ A Python script developed to generate this .csv samplesheet file from any given 
 | `-profile` | Specific set of parameters from the nextflow.config file | `local` |
 
 ---
-
 ## Pipeline Components
 
 ### `InSilicoSeq` Process

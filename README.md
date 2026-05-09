@@ -18,6 +18,16 @@ The pipeline utilizes Nextflow's DSL2 syntax to provide a scalable, reproducible
 
 ---
 
+## Samplesheet Input File
+InSilicoNext takes as input a .csv samplesheet file. It must contain the IDs and the absolute paths of the genomes you previously downloaded to use as a reference for the creation of the simulated microbiome samples. See a template file in the data/ folder in this repo. 
+
+### samplesheet.csv
+| ID | Absolute Path |
+| :--- | :--- | :--- |
+| `GCF_016724805_1_genomic.fna` | /home/user/data/genomes/GCF_016724805_1_genomic.fna 
+| `GCF_009731575_1_genomic.fna` | /home/user/data/genomes/GCF_009731575_1_genomic.fna
+| `GCF_055385135_1_genomic.fna` | /home/userdata/genomes/GCF_055385135_1_genomic.fna
+---
 ## Quick Start
 
 1.  **Clone the repository:**
@@ -34,7 +44,7 @@ The pipeline utilizes Nextflow's DSL2 syntax to provide a scalable, reproducible
 3.  **Run with your own data:**
     ```bash
     nextflow run main.nf \\
-      --input_genomes samplesheet.csv
+      --input_genomes samplesheet.csv \\
       --sequencer_model hiseq \\
       --number_of_samples 15 \\
       --number_of_reads 1 \\

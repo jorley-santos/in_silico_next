@@ -54,7 +54,7 @@ A Python script developed to generate this .csv samplesheet file from any given 
       --number_of_samples 5 \
       --number_of_reads 1 \
       --cpus 2 \
-      -profile singularity
+      -profile local
     ```
 
 ---
@@ -73,6 +73,12 @@ A Python script developed to generate this .csv samplesheet file from any given 
 | `--number_of_samples` | Number of samples to generate. | `1` |
 | `--number_of_reads` | Millions of reads to simulate (e.g, `0.5M`, `0.1M`, `5M`). | `1M` |
 | `--cpus` | Number of cpus to allocate to the pipeline. | `2` |
+
+### Nextflow Specifics
+| Parameter | Description | Default |
+| :--- | :--- | :--- |
+| `-output-dir` | Directory to save the simulated reads.| `` |
+| `-profile` | Specific set of parameters from the nextflow.config file | `local` |
 
 ---
 
@@ -123,6 +129,6 @@ Nextflow: Di Tommaso, P., et al. (2017). Nextflow enables reproducible computati
 
 InSilicoSeq: Gourlé, H., et al. (2019). Simulating Illumina metagenomic data with InSilicoSeq. Bioinformatics.
 
-## Pipeline Components
+## License
 This project is licensed under the MIT License.
 

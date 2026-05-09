@@ -44,12 +44,12 @@ InSilicoNext takes as input a .csv samplesheet file. It must contain the IDs and
 
 3.  **Run with your own data:**
     ```bash
-    nextflow run main.nf \\
-      --input_genomes samplesheet.csv \\
-      --sequencer_model hiseq \\
-      --number_of_samples 15 \\
-      --number_of_reads 1 \\
-      --cpus 4
+    nextflow run main.nf \
+      --input_genomes samplesheet.csv \
+      --sequencer_model hiseq \
+      --number_of_samples 15 \
+      --number_of_reads 1 \
+      --cpus 4 \
       -profile singularity
     ```
 

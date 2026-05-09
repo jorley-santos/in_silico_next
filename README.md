@@ -1,13 +1,13 @@
 # InSilicoSeq - Nextflow Implementation
 
-# [Pipeline Name]
+# [InSilicoNext]
 
 [![Nextflow](https://img.shields.io/badge/nextflow%20DSL2-%E2%89%A522.10.1-23aa62.svg)](https://www.nextflow.io/)
 [![Singularity](https://img.shields.io/badge/singularity-white.svg?logo=singularity)](https://sylabs.io/guides/3.0/user-guide/)
 [![Docker](https://img.shields.io/badge/docker-blue.svg?logo=docker)](https://www.docker.com/)
 
 ## Description
-This is a Nextflow-based pipeline designed to generate synthetic (mock) metagenomic datasets using **InSilicoSeq (ISS)**. It automates the distribution of genomes, abundance profiling, and read simulation across a distributed computing environment.
+InSilicoNext is a Nextflow-based pipeline designed to generate synthetic (mock) metagenomic datasets using **InSilicoSeq (ISS)**. It automates the distribution of genomes, abundance profiling, and read simulation across a distributed computing environment.
 
 The pipeline utilizes Nextflow's DSL2 syntax to provide a scalable, reproducible, and containerized workflow for bioinformaticians needing high-quality ground-truth datasets for tool benchmarking.
 

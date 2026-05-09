@@ -24,9 +24,9 @@ InSilicoNext takes as input a .csv samplesheet file. It must contain the IDs and
 ### samplesheet.csv
 | ID | Absolute Path |
 | :--- | :--- | :--- |
-| `GCF_016724805_1_genomic.fna` | /home/user/data/genomes/GCF_016724805_1_genomic.fna 
-| `GCF_009731575_1_genomic.fna` | /home/user/data/genomes/GCF_009731575_1_genomic.fna
-| `GCF_055385135_1_genomic.fna` | /home/userdata/genomes/GCF_055385135_1_genomic.fna
+| `GCF_016724805_1_genomic.fna` | /home/user/data/genomes/GCF_016724805_1_genomic.fna |
+| `GCF_009731575_1_genomic.fna` | /home/user/data/genomes/GCF_009731575_1_genomic.fna |
+| `GCF_055385135_1_genomic.fna` | /home/userdata/genomes/GCF_055385135_1_genomic.fna  |
 ---
 ## Quick Start
 

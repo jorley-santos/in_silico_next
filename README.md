@@ -77,10 +77,7 @@ A Python script developed to generate this .csv samplesheet file from any given 
 ### Nextflow Specifics
 | Parameter | Description | Default |
 | :--- | :--- | :--- |
-| `-output-dir` | Directory to save the simulated reads.| `` |
-| `-profile` | Specific set of parameters from the nextflow.config file | `local` |
-| `-params-file` | Specific set of parameters from yaml or json file | `parameters-test-profile.json` |
-
+| `-output-dir` | Directory to save the simulated reads.| `./results/` |
 
 ---
 ## Pipeline Components

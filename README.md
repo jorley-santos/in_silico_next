@@ -53,7 +53,7 @@ The pipeline utilizes Nextflow's DSL2 syntax to provide a scalable, reproducible
 ### ISS Specifics
 | Parameter | Description | Default |
 | :--- | :--- | :--- |
-| `--sequencer_model` | ISS sequencing model (e.g., `hisec`, `miseq`, `novaseq`). | `hisec` |
+| `--sequencer_model` | ISS sequencing model (e.g., `hiseq`, `miseq`, `novaseq`). | `hiseq` |
 | `--number_of_reads` | How many millions of reads to simulate. | `1M` |
 | `--cpus` | Number of cpus to allocate to the pipeline. | `Default: 2` |
 

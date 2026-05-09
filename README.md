@@ -115,3 +115,14 @@ process ISS_GENERATE {
     gzip *.fastq
     """
 }
+
+## Citations
+If you use this pipeline, please cite:
+
+Nextflow: Di Tommaso, P., et al. (2017). Nextflow enables reproducible computational workflows. Nature Biotechnology.
+
+InSilicoSeq: Gourlé, H., et al. (2019). Simulating Illumina metagenomic data with InSilicoSeq. Bioinformatics.
+
+## Pipeline Components
+This project is licensed under the MIT License.
+

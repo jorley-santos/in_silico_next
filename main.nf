@@ -12,7 +12,7 @@ include { insilico_defined_microbiome } from './modules/insilicoseq_module.nf'
 params {
     input_genomes: Path
     number_of_samples:String
-    number_of_reads: String
+    millions_of_reads: String
     cpus: String
     sequencer_model: String
     batch: String
@@ -35,7 +35,7 @@ workflow {
     insilico_defined_microbiome(genomes_ch,
                                 params.number_of_samples,
                                 params.sequencer_model,
-                                params.number_of_reads,
+                                params.millions_of_reads,
                                 params.cpus)
     publish:
     output_defined_microbiome = insilico_defined_microbiome.out.metagenome

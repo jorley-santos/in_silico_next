@@ -35,7 +35,7 @@ The pipeline utilizes Nextflow's DSL2 syntax to provide a scalable, reproducible
     ```bash
     nextflow run main.nf \\
       --sequencer_model hiseq \\
-      --number_of_samples 5 \\
+      --number_of_samples 15 \\
       --number_of_reads 1 \\
       --cpus 4
       -profile singularity
@@ -54,7 +54,7 @@ The pipeline utilizes Nextflow's DSL2 syntax to provide a scalable, reproducible
 | Parameter | Description | Default |
 | :--- | :--- | :--- |
 | `--sequencer_model` | ISS sequencing model (e.g., `hisec`, `miseq`, `novaseq`). | `hisec` |
-| `--number_of_reads` | Number of reads to simulate . | `1M` |
+| `--number_of_reads` | How many millions of reads to simulate. | `1M` |
 | `--cpus` | Number of cpus to allocate to the pipeline. | `Default: 2` |
 
 ---

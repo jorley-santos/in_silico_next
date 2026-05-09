@@ -1,4 +1,4 @@
-# InSilicoNext - InSilicoSeq Nextflow Implementation
+# InSilicoNext
 
 [![Nextflow](https://img.shields.io/badge/nextflow%20DSL2-%E2%89%A522.10.1-23aa62.svg)](https://www.nextflow.io/)
 [![Singularity](https://img.shields.io/badge/singularity-white.svg?logo=singularity)](https://sylabs.io/guides/3.0/user-guide/)

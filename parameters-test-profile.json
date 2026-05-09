@@ -1,0 +1,13 @@
+{
+  "params": {
+    "input_genomes": "//data/samplesheet.csv",
+    "number_of_samples": "1",
+    "sequencer_model": "hiseq",
+    "number_of_reads": "0.1",
+    "cpus": "2",
+    "batch": "batch"
+  },
+  "docker": {
+    "enabled": true
+  }
+}

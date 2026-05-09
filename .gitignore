@@ -1,7 +1,9 @@
 data/
 results/
 work/
+mock_samples/
 .nextflow/
+
 *.fastq
 *.fasta
 *.fna

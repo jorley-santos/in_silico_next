@@ -18,8 +18,8 @@ The pipeline utilizes Nextflow's DSL2 syntax to provide a scalable, reproducible
 
 ---
 
-## Samplesheet Input File
-InSilicoNext requires as input a .csv samplesheet file
+## Samplesheet - Input File
+InSilicoNext requires a .csv samplesheet file as input.
 
 It must be filled with the IDs and absolute paths of the microbial genomes you wish to use as references in the creation of the simulated microbiome samples. See a template file in the data/ subfolder.
 

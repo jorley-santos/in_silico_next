@@ -51,9 +51,9 @@ A Python script developed to generate this .csv samplesheet file from any given 
     nextflow run main.nf \
       --input_genomes samplesheet.csv \
       --sequencer_model hiseq \
-      --number_of_samples 15 \
+      --number_of_samples 5 \
       --number_of_reads 1 \
-      --cpus 4 \
+      --cpus 2 \
       -profile singularity
     ```
 
@@ -70,8 +70,9 @@ A Python script developed to generate this .csv samplesheet file from any given 
 | Parameter | Description | Default |
 | :--- | :--- | :--- |
 | `--sequencer_model` | ISS sequencing model (e.g., `hiseq`, `miseq`, `novaseq`). | `hiseq` |
-| `--number_of_reads` | How many millions of reads to simulate. | `1M` |
-| `--cpus` | Number of cpus to allocate to the pipeline. | `Default: 2` |
+| `--number_of_samples` | Number of samples to generate. | `1` |
+| `--number_of_reads` | Millions of reads to simulate (e.g, `0.5M`, `0.1M`, `5M`). | `1M` |
+| `--cpus` | Number of cpus to allocate to the pipeline. | `2` |
 
 ---
 

@@ -43,7 +43,7 @@ A Python script developed to generate this .csv samplesheet file from any given 
 
 2.  **Run with test data:**
     ```bash
-    nextflow run main.nf -profile test --input_genomes samplesheet.csv
+    nextflow run main.nf --input_genomes samplesheet.csv
     ```
 
 3.  **Run with your own data:**
@@ -54,7 +54,6 @@ A Python script developed to generate this .csv samplesheet file from any given 
       --number_of_samples 5 \
       --number_of_reads 1 \
       --cpus 2 \
-      -profile local
     ```
 
 ---
@@ -78,6 +77,7 @@ A Python script developed to generate this .csv samplesheet file from any given 
 | Parameter | Description | Default |
 | :--- | :--- | :--- |
 | `-output-dir` | Directory to save the simulated reads.| `./results/` |
+| `-profile` | Set of different parameter values (e.g. `local`, `HPC`) | `local` |
 
 ---
 ## Pipeline Components

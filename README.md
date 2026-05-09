@@ -55,7 +55,6 @@ A Python script developed to generate this .csv samplesheet file from any given 
       --number_of_reads 1 \
       --cpus 2 \
     ```
-
 ---
 
 ## Parameters

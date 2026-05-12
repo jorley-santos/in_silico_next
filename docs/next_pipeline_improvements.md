@@ -8,3 +8,5 @@
 
 - Update utils/csv_samplesheet_maker.py to receive an input folder from the command line. The 
 script should also check for the existence of the input folder.
+
+- Update parameters-test-profile.json. Not working properly at the moment.

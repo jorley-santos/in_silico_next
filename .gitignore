@@ -3,6 +3,7 @@ results/
 work/
 mock_samples/
 .nextflow/
+simulated_microbiome_samples/
 
 *.fastq
 *.fasta

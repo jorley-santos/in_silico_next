@@ -21,3 +21,5 @@ def csv_samplesheet_maker(input_folder):
             text.write(i + ",")                              # adding the file name to the 1st column
             text.write(input_folder +"/" + str(i))                # adding the file absolute path to the 2nd column
             text.write("\n")
+
+csv_samplesheet_maker("/home/jubarte/insilicoseq-microbiome-pipeline/data/genomes")

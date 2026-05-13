@@ -22,4 +22,4 @@ def csv_samplesheet_maker(input_folder):
             text.write(input_folder +"/" + str(i))                # adding the file absolute path to the 2nd column
             text.write("\n")
 
-csv_samplesheet_maker("/home/jubarte/insilicoseq-microbiome-pipeline/data/genomes")
+csv_samplesheet_maker("/home/jubarte/bioinformatic-projects/nextflow-pipelines/personal-projects/insilicoseq-microbiome-pipeline/data/genomes")
